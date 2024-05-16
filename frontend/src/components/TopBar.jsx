@@ -5,8 +5,8 @@ export default function TopBar(){
 
     return(
         
-<Container>
-<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+<Container fluid className="top-bar">
+<div  style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingLeft:'20px' , paddingRight:'20px'}}>
   {/* Store Locator */}
   <div>
     <span>Find a Store</span>

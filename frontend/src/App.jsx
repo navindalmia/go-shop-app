@@ -12,11 +12,17 @@ function App() {
   return (
     <>
     <BrowserRouter >
-        <TopBar/>    
-        <NavBar/>
+       <div className = "nav-top"> 
+          <TopBar/>    
+          <NavBar/>
+        </div>
+        <div>
         { <Routes>
           <Route path = "/"  element = {<Home/>}/>
           </Routes> }
+          </div>
+          
+
       </BrowserRouter>
     </>
   )

@@ -1,10 +1,15 @@
 import React from 'react'
 
+import ProductDetail from '../products/ProductDetail.jsx'
 
 export default function  Home(){
 
     return(
-        <>Home</>
+        <>Home
+        {/* <ProductDetail/> */}
+        <ProductDetail/>
+        
+        </>
 
     )
 
