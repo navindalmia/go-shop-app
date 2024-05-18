@@ -7,3 +7,8 @@ Then
  npm run dev
 
 http://localhost:5173/
+
+
+postgre superuser
+admin
+admin
